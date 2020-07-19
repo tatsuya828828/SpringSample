@@ -11,5 +11,12 @@
 		<input type="text" name="text1" th:value="${text1_value}"/>
 		<input type="submit" value="クリック"/>
 	</form>
+	<br>
+	<!-- ポスト先を/hello/db/に設定したformタグ -->
+	<form method="post" action="/hello/db">
+		従業員IDを入力してください:
+		<input type="text" name="text2" th:value="${text2_value}"/>
+		<input type="submit" value="クリック"/>
+	</form>
 </body>
 </html>
